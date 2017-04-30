@@ -1,0 +1,35 @@
+{
+  "name": "typescript-d3-playground",
+  "version": "1.0.0",
+  "description": "A playground in typescript to test d3 (v4) samples",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TNOCS/typescript-d3-playground.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TNOCS/typescript-d3-playground/issues"
+  },
+  "scripts": {
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --hot --inline --no-info"
+  },
+  "keywords": [
+    "typescript",
+    "d3",
+    "playground"
+  ],
+  "author": "Erik Vullings <erik.vullings@gmail.com> (http://www.tno.nl)",
+  "license": "MIT",
+  "dependencies": {
+    "d3": "^4.8.0"
+  },
+  "devDependencies": {
+    "@types/d3": "^4.8.0",
+    "source-map-loader": "^0.2.1",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.3.2",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}

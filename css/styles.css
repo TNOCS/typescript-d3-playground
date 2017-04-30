@@ -1,0 +1,18 @@
+#main {
+  margin: 50px;
+}
+
+#chart rect {
+  fill: steelblue;
+}
+
+#chart line {
+  stroke: black;
+  stroke-dasharray: 5, 5
+}
+
+#chart text {
+  fill: white;
+  font: 16px Helvetica;
+  text-anchor: end;
+}
